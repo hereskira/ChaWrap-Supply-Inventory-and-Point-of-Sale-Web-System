@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> ChaWrap / Inventory </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="sidebar-menu" id="sidebarMenu">
+        <div class="exit-button">
+            <div class="line1"></div>
+            <div class="line2"></div>
+        </div>
+        <img src="sidebar-logo.png" class="sidebar-logo">
+
+        <div class="sidebar-item" data-url="dashboard.html">Dashboard</div>
+        <div class="sidebar-item" data-url="inventory.html">Inventory</div>
+        <div class="sidebar-item" data-url="orders.html">Orders</div>
+        <div class="sidebar-item" data-url="reports.html">Reports</div>
+        <div class="sidebar-item" data-url="events.html">Events</div>
+    </div>
+
+    <div class="top-part">
+        <div class="menu">
+            <img src="menu.png" class="menu-container" alt="Menu">
+            <div class="menu-line menu-line1"></div>
+            <div class="menu-line menu-line2"></div>
+            <div class="menu-line menu-line3"></div>
+        </div>
+
+        <div class="title-container">
+            <p class="page-title"> Inventory / <span> Add Item </span></p>
+            <p class="page-date"> April 27, 2024</p>
+        </div>
+    </div>
+
+    <div class="add-item-container">
+        <form>
+            <div class="additem-line">
+                <div class="select-container">
+                    <label for="item-code"> Item Code </label><br>
+                    <select name="item-code" id="item-code">
+                        <option value="" disabled selected>Select Item Code</option>
+                        <option value="001">001</option>
+                        <option value="002">002</option>
+                        <option value="003">003</option>
+                    </select>
+                </div>
+
+                <div class="select-container2">
+                    <label for="dateof-purchase"> Date of Purchase </label><br>
+                    <input type="date" id="date-input" />
+                </div>
+            </div>
+
+            <div class="additem-line">
+                <div class="select-container">
+                    <label for="item-name"> Item </label><br>
+                    <input type="text" id="item-name" placeholder="Enter Item Name">
+                </div>
+
+                <div class="select-container2">
+                    <label for="brand"> Brand </label><br>
+                    <input type="text" id="brand" placeholder="Enter Brand Name"/>
+                </div>
+            </div>
+
+            <div class="additem-line">
+                <div class="select-container">
+                    <label for="quantity"> Quantity </label><br>
+                    <input type="number" id="quantity" placeholder="Enter Quantity"/>
+                </div>
+
+                <div class="select-container2">
+                    <label for="item-code"> Unit of Measurement </label><br>
+                    <select name="item-code" id="item-code">
+                        <option value="" disabled selected>Select Unit</option>
+                        <option value="piece"> Piece </option>
+                        <option value="kilograms"> Kilograms </option>
+                        <option value="liters"> Liters </option>
+                        <option value="meters"> Meters </option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="additem-line">
+                <label for="shelflife"> Expected Shelf Life </label>
+                <input type="date" id="shelflife" />
+            </div>
+
+            <button type="submit" id="save-button">Save</button>
+           
+        </form>
+    </div>
+</body>
+
+</html>
