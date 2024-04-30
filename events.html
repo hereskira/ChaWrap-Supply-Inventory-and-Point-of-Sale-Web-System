@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title> ChaWrap / Inventory </title>
+    <title> ChaWrap / Events </title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
@@ -31,16 +31,15 @@
         </div>
 
         <div class="title-container">
-            <p class="page-title"> Inventory </p>
+            <p class="page-title"> Events </p>
             <p class="page-date"> April 27, 2024</p>
         </div>
     </div>
 
-
     <div class="navbar">
         <div class="search-box">
             <form>
-                <input type="text" placeholder="Search item" id="search-container">
+                <input type="text" placeholder="Search event" id="search-container">
                 <div class="search-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <path
@@ -52,42 +51,57 @@
         </div>
 
         <div class="modify">
-            <p> Add item </p>
+            <p> Add event </p>
         </div>
 
         <div class="modify">
-            <p> Delete item </p>
+            <p> Delete event </p>
         </div>
 
         <div class="triangle"></div>
         <div class="triangle2"></div>
     </div>
 
+    <p class="events-month"> April 2024 </p>
     <table class="table">
         <thead>
             <tr>
-                <th> ITEM CODE </th>
-                <th> DATE OF PURCHASE </th>
-                <th> ITEM </th>
-                <th> BRAND </th>
-                <th> QUANTITY </th>
-                <th> SHELF LIFE </th>
+                <th> DATE </th>
+                <th> EVENT </th>
+                <th> VENUE </th>
             </tr>
         </thead>
 
         <tr style="height: 20px;">
-            <td colspan="6"></td>
+            <td colspan="3"></td>
         </tr>
 
         <tbody>
             <td>001</td>
             <td>2024-04-29</td>
             <td>Item A</td>
-            <td>Brand X</td>
-            <td>10</td>
-            <td>6 months</td>
         </tbody>
     </table>
 
+    <p class="events-month"> May 2024 </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th> DATE </th>
+                <th> EVENT </th>
+                <th> VENUE </th>
+            </tr>
+        </thead>
+
+        <tr style="height: 20px;">
+            <td colspan="3"></td>
+        </tr>
+
+        <tbody>
+            <td>001</td>
+            <td>2024-04-29</td>
+            <td>Item A</td>
+        </tbody>
+    </table>
 </body>
 </html>

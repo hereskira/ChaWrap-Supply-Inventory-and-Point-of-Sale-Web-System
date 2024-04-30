@@ -31,6 +31,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-document.querySelector('.modify-item').addEventListener('click', function() {
-    window.location.href = 'add-item.html';
+document.querySelector('.modify').addEventListener('click', function() {
+    const currentPath = window.location.pathname;
+
+    if (currentPath.includes('inventory.html')) {
+        window.location.href = 'add-item.html';
+    } else if (currentPath.includes('events.html')) {
+        window.location.href = 'add-event.html';
+    }
 });

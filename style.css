@@ -237,7 +237,7 @@ a:hover {
 
 .page-title {
     color: #F15A2F;
-    font-size: 64px;
+    font-size: 54px;
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -245,7 +245,7 @@ a:hover {
 }
 
 .page-title span {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     margin-left: 13px;
     margin-top: 10px;
@@ -253,7 +253,7 @@ a:hover {
 
 .page-date {
     color: #F15A2F;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
     margin-left: 5px;
 }
@@ -296,7 +296,7 @@ a:hover {
     cursor: pointer;
 }
 
-.modify-item {
+.modify {
     width: 150px;
     height: 38px;
     border-radius: 30px;
@@ -307,7 +307,7 @@ a:hover {
     cursor: pointer;
 }
 
-.modify-item p {
+.modify p {
     color: #FFF;
     text-align: center;
     font-weight: 600;
@@ -407,7 +407,7 @@ label {
     margin-left: 91px;
 }
 
-#date-input,
+#date-item-input,
 #item-name,
 #brand,
 #quantity,
@@ -435,9 +435,26 @@ label {
     color: #9B9B9B;
 }
 
+input#date-item-input,
+input#shelflife{
+    color: #9B9B9B;
+}
+
 #shelflife {
     margin-left: -173px;
     margin-top: 38px;
+}
+
+#unitm {
+    margin-top: 11px;
+    width: 368.784px;
+    height: 51.732px;
+    border-radius: 10px;
+    border: 1px solid rgba(241, 90, 47, 0.54);
+    background: #F6F6F6;
+    padding-left: 35px;
+    color: #9B9B9B;
+    font-size: 20px;
 }
 
 #save-button {
@@ -453,4 +470,53 @@ label {
     text-align: center;
     margin-left: 700px;
     margin-top: 30px;
+}
+
+.events-month {
+    color: #F15A2F;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 130px;
+    margin-top: 40px;
+    margin-bottom: -30px;
+}
+
+.add-event-container {
+    width: 907px;
+    height: 550px;
+    border-radius: 15px;
+    border: 3px solid #F36C3E;
+    background: rgba(254, 241, 216, 0.65);
+    margin-left: 240px;
+    margin-top: 63px;
+}
+
+.add-event-line{
+    margin-top: 30px;
+    margin-left: 55px;
+    margin-bottom: 48px;
+}
+
+#date-event,
+#name-event,
+#venue-event {
+    font-size: 24px;
+}
+
+#date-event-input,
+#name-event-input,
+#venue-event-input {
+    width: 357.358px;
+    height: 57.818px;
+    border-radius: 10px;
+    border: 1px solid rgba(241, 90, 47, 0.54);
+    background: #F6F6F6;
+    color: #9B9B9B;
+    font-size: 20px;
+    padding-left: 31.74px;
+    margin-top: 6.1px;
+}
+
+input#date-event-input{
+    color: #9B9B9B;
 }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> ChaWrap / Events - Add Event </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="sidebar-menu" id="sidebarMenu">
+        <div class="exit-button">
+            <div class="line1"></div>
+            <div class="line2"></div>
+        </div>
+        <img src="sidebar-logo.png" class="sidebar-logo">
+
+        <div class="sidebar-item" data-url="dashboard.html">Dashboard</div>
+        <div class="sidebar-item" data-url="inventory.html">Inventory</div>
+        <div class="sidebar-item" data-url="orders.html">Orders</div>
+        <div class="sidebar-item" data-url="reports.html">Reports</div>
+        <div class="sidebar-item" data-url="events.html">Events</div>
+    </div>
+
+    <div class="top-part">
+        <div class="menu">
+            <img src="menu.png" class="menu-container" alt="Menu">
+            <div class="menu-line menu-line1"></div>
+            <div class="menu-line menu-line2"></div>
+            <div class="menu-line menu-line3"></div>
+        </div>
+
+        <div class="title-container">
+            <p class="page-title"> Events / <span> Add Event </span></p>
+            <p class="page-date"> April 27, 2024</p>
+        </div>
+    </div>
+
+    <div class="add-event-container">
+        <div class="add-event-line">
+            <label for="date-event" id="date-event"> Date</label><br>
+            <input type="date" id="date-event-input" />
+        </div>
+
+        <div class="add-event-line">
+            <label for="name-event" id="name-event" > Event </label><br>
+            <input type="text" id="name-event-input" placeholder="Enter Event Name"/>
+        </div>
+
+        <div class="add-event-line">
+            <label for="venue-event" id="venue-event"> Venue</label><br>
+            <input type="text" id="venue-event-input" placeholder="Enter Venue Name"/>
+        </div>
+
+        <button type="submit" id="save-button">Save</button>
+    </div>
+</body>
+
+</html>
