@@ -241,7 +241,6 @@ a:hover {
     font-weight: 700;
     display: flex;
     justify-content: center;
-    /* Center the content horizontally */
     align-items: center;
 }
 
@@ -280,7 +279,8 @@ a:hover {
     margin-right: 149px;
 }
 
-#search-container, #search-container input {
+#search-container,
+#search-container input {
     color: #F15A2F;
     font-size: 16px;
     border: none;
@@ -370,31 +370,31 @@ a:hover {
 }
 
 .add-item-container {
-    width: 1000px;
-    height: 680px;
+    width: 936px;
+    height: 553px;
     border-radius: 15px;
     border: 3px solid #F36C3E;
     background: rgba(254, 241, 216, 0.65);
-    margin-top: 65px;
+    margin-top: 58px;
     margin-left: 231px;
 }
 
 .additem-line {
-    margin-top: 36px;
-    margin-left: 61px;
+    margin-top: 26px;
+    margin-left: 57.1px;
     display: flex;
 }
 
 label {
     color: #E03B0C;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
 }
 
-select {
+#item-code {
     margin-top: 11px;
-    width: 394px;
-    height: 66px;
+    width: 368.784px;
+    height: 51.732px;
     border-radius: 10px;
     border: 1px solid rgba(241, 90, 47, 0.54);
     background: #F6F6F6;
@@ -407,10 +407,14 @@ select {
     margin-left: 91px;
 }
 
-#date-input, #item-name, #brand, #quantity, #shelflife {
+#date-input,
+#item-name,
+#brand,
+#quantity,
+#shelflife {
     margin-top: 11px;
-    width: 394px;
-    height: 66px;
+    width: 368.784px;
+    height: 51.732px;
     border-radius: 10px;
     border: 1px solid rgba(241, 90, 47, 0.54);
     background: #F6F6F6;
@@ -431,14 +435,14 @@ select {
     color: #9B9B9B;
 }
 
-#shelflife{
-    margin-left: -207px;
+#shelflife {
+    margin-left: -173px;
     margin-top: 38px;
 }
 
 #save-button {
-    width: 183px;
-    height: 52px;
+    width: 171.288px;
+    height: 40.759px;
     border-radius: 30px;
     background: rgba(241, 90, 47, 0.86);
     border: none;
@@ -447,6 +451,6 @@ select {
     font-size: 20px;
     font-weight: 700;
     text-align: center;
-    margin-left: 750px;
-    margin-top: 32px;
+    margin-left: 700px;
+    margin-top: 30px;
 }
